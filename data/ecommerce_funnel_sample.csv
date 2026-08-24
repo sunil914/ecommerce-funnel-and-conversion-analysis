@@ -1,0 +1,501 @@
+user_id,session_id,date,month,channel,campaign_type,device,user_type,region,visited_website,viewed_product,added_to_cart,checkout_started,purchase_completed,discount_applied,order_value,revenue,visited_website_flag,viewed_product_flag,added_to_cart_flag,checkout_started_flag,purchase_completed_flag,discount_applied_flag
+221958,1,2025-08-16,2025-08,Organic,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+771155,2,2025-12-16,2025-12,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+231932,3,2025-07-17,2025-07,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+465838,4,2025-07-04,2025-07,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2000.95,1800.855,1,1,1,1,1,1
+359178,5,2025-08-10,2025-08,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+744167,6,2025-11-11,2025-11,Organic,New Launch,Desktop,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+210268,7,2025-12-19,2025-12,Organic,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+832180,8,2025-11-29,2025-11,Social,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+154886,9,2025-08-23,2025-08,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+237337,10,2025-10-13,2025-10,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+621430,11,2025-09-29,2025-09,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+187498,12,2025-11-04,2025-11,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+999159,13,2025-07-31,2025-07,Social,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+275203,14,2025-07-09,2025-07,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+291335,15,2025-08-22,2025-08,Organic,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+378167,16,2025-11-01,2025-11,Organic,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+141090,17,2025-07-02,2025-07,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+429365,18,2025-11-25,2025-11,Organic,Discount,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+164820,19,2025-10-28,2025-10,Email,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+887201,20,2025-10-14,2025-10,Paid Ads,Influencer,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+421879,21,2025-07-04,2025-07,Email,New Launch,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+818315,22,2025-12-19,2025-12,Organic,New Launch,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+427069,23,2025-08-31,2025-08,Paid Ads,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+876997,24,2025-07-13,2025-07,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+299041,25,2025-10-21,2025-10,Organic,Discount,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+891743,26,2025-11-25,2025-11,Paid Ads,Influencer,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+203355,27,2025-12-27,2025-12,Organic,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+335796,28,2025-11-11,2025-11,Organic,Influencer,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+314176,29,2025-11-20,2025-11,Organic,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+284779,30,2025-09-02,2025-09,Organic,New Launch,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+447449,31,2025-10-02,2025-10,Email,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+521909,32,2025-12-11,2025-12,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+358795,33,2025-12-11,2025-12,Social,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+586232,34,2025-11-08,2025-11,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+600186,35,2025-09-29,2025-09,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+256730,36,2025-10-31,2025-10,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+970910,37,2025-08-09,2025-08,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+484681,38,2025-12-13,2025-12,Email,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+249503,39,2025-08-14,2025-08,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+754811,40,2025-10-13,2025-10,Social,New Launch,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+627035,41,2025-10-28,2025-10,Paid Ads,Influencer,Desktop,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+748143,42,2025-10-03,2025-10,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+552366,43,2025-09-04,2025-09,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,3126.93,2814.237,1,1,1,1,1,1
+165725,44,2025-07-24,2025-07,Social,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+229981,45,2025-07-06,2025-07,Paid Ads,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+184654,46,2025-11-03,2025-11,Organic,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+691723,47,2025-09-19,2025-09,Email,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+419030,48,2025-09-28,2025-09,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+428947,49,2025-11-07,2025-11,Email,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+655839,50,2025-07-26,2025-07,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+373538,51,2025-08-13,2025-08,Paid Ads,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+431236,52,2025-07-01,2025-07,Email,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+628178,53,2025-11-07,2025-11,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+665894,54,2025-07-11,2025-07,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+589492,55,2025-12-05,2025-12,Social,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+356840,56,2025-08-03,2025-08,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+573254,57,2025-08-30,2025-08,Organic,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+449457,58,2025-09-29,2025-09,Organic,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+765987,59,2025-10-15,2025-10,Organic,New Launch,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,No,2559.06,2559.06,1,1,1,1,1,0
+370936,60,2025-12-09,2025-12,Organic,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+339931,61,2025-10-11,2025-10,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+339629,62,2025-07-02,2025-07,Social,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+305041,63,2025-09-02,2025-09,Social,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+798361,64,2025-10-02,2025-10,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+831912,65,2025-11-08,2025-11,Social,Discount,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+517113,66,2025-11-04,2025-11,Social,New Launch,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+168148,67,2025-12-05,2025-12,Social,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+877089,68,2025-10-09,2025-10,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+748531,69,2025-12-10,2025-12,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+351995,70,2025-10-30,2025-10,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+778843,71,2025-11-27,2025-11,Paid Ads,Influencer,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+672843,72,2025-09-20,2025-09,Organic,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,Yes,Yes,Yes,No,1559.84,1559.84,1,1,1,1,1,0
+356508,73,2025-08-31,2025-08,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+903591,74,2025-10-17,2025-10,Organic,Influencer,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+996942,75,2025-08-23,2025-08,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,Yes,1823.87,1641.483,1,1,1,1,1,1
+206530,76,2025-10-21,2025-10,Paid Ads,New Launch,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+704365,77,2025-08-07,2025-08,Organic,New Launch,Desktop,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+922352,78,2025-07-30,2025-07,Organic,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+560337,79,2025-11-07,2025-11,Paid Ads,New Launch,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+824839,80,2025-07-20,2025-07,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+905889,81,2025-12-19,2025-12,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+559773,82,2025-09-06,2025-09,Organic,Influencer,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+308261,83,2025-10-20,2025-10,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+864469,84,2025-07-09,2025-07,Organic,Influencer,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+441097,85,2025-11-19,2025-11,Social,New Launch,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+415139,86,2025-07-11,2025-07,Social,Discount,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2075.42,1867.878,1,1,1,1,1,1
+271829,87,2025-07-10,2025-07,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+371836,88,2025-08-26,2025-08,Paid Ads,New Launch,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+538974,89,2025-07-06,2025-07,Organic,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+302283,90,2025-11-22,2025-11,Paid Ads,New Launch,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+296769,91,2025-07-13,2025-07,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+661353,92,2025-08-28,2025-08,Organic,Influencer,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+323165,93,2025-08-16,2025-08,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+723587,94,2025-11-01,2025-11,Organic,Discount,Mobile,Returning,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+635822,95,2025-10-28,2025-10,Email,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+587879,96,2025-07-04,2025-07,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+664685,97,2025-07-26,2025-07,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+882038,98,2025-08-01,2025-08,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+453531,99,2025-11-16,2025-11,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+363160,100,2025-10-26,2025-10,Organic,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+679879,101,2025-08-21,2025-08,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+320884,102,2025-12-04,2025-12,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+123247,103,2025-11-07,2025-11,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+124300,104,2025-08-18,2025-08,Organic,Influencer,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2408.04,2167.236,1,1,1,1,1,1
+567281,105,2025-10-21,2025-10,Social,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+707086,106,2025-11-26,2025-11,Organic,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+633556,107,2025-07-17,2025-07,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+448951,108,2025-10-17,2025-10,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+374329,109,2025-10-04,2025-10,Organic,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+819064,110,2025-11-08,2025-11,Organic,New Launch,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2434.04,2190.636,1,1,1,1,1,1
+842139,111,2025-08-11,2025-08,Organic,Discount,Desktop,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+532315,112,2025-12-23,2025-12,Social,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+616588,113,2025-10-24,2025-10,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+336584,114,2025-10-03,2025-10,Email,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+662332,115,2025-12-06,2025-12,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+937646,116,2025-11-03,2025-11,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+476896,117,2025-11-06,2025-11,Paid Ads,Influencer,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+148984,118,2025-09-30,2025-09,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+402918,119,2025-09-25,2025-09,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+364712,120,2025-10-24,2025-10,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+220151,121,2025-09-07,2025-09,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+555808,122,2025-07-01,2025-07,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+233767,123,2025-09-18,2025-09,Organic,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+748663,124,2025-08-05,2025-08,Social,Influencer,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+803550,125,2025-10-09,2025-10,Social,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+236330,126,2025-09-18,2025-09,Social,New Launch,Desktop,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+580754,127,2025-08-30,2025-08,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+401648,128,2025-09-14,2025-09,Social,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+788519,129,2025-07-04,2025-07,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+113986,130,2025-10-27,2025-10,Social,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+686146,131,2025-08-18,2025-08,Paid Ads,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+229312,132,2025-08-10,2025-08,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+112666,133,2025-10-29,2025-10,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+400804,134,2025-07-21,2025-07,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+234633,135,2025-08-09,2025-08,Paid Ads,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+388998,136,2025-10-01,2025-10,Email,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+950937,137,2025-09-17,2025-09,Social,Influencer,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+728776,138,2025-09-16,2025-09,Paid Ads,New Launch,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+807611,139,2025-10-10,2025-10,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+384806,140,2025-12-15,2025-12,Social,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+894824,141,2025-12-02,2025-12,Paid Ads,Influencer,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+130535,142,2025-12-17,2025-12,Organic,Discount,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+475713,143,2025-10-12,2025-10,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+938688,144,2025-11-03,2025-11,Email,New Launch,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+451279,145,2025-12-11,2025-12,Paid Ads,Discount,Desktop,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+921654,146,2025-11-16,2025-11,Organic,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+701661,147,2025-09-15,2025-09,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+747972,148,2025-08-04,2025-08,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+589570,149,2025-09-23,2025-09,Organic,New Launch,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+556551,150,2025-08-06,2025-08,Paid Ads,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+373109,151,2025-11-17,2025-11,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+124538,152,2025-12-25,2025-12,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+994498,153,2025-11-30,2025-11,Organic,Discount,Desktop,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+301664,154,2025-09-01,2025-09,Organic,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+591234,155,2025-10-27,2025-10,Social,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+999684,156,2025-10-16,2025-10,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+239182,157,2025-07-10,2025-07,Organic,Influencer,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+572525,158,2025-08-27,2025-08,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+258338,159,2025-10-11,2025-10,Social,Discount,Mobile,Returning,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+284064,160,2025-07-03,2025-07,Social,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+314020,161,2025-08-24,2025-08,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+723094,162,2025-11-17,2025-11,Email,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,Yes,2519.59,2267.631,1,1,1,1,1,1
+997421,163,2025-08-14,2025-08,Social,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+715270,164,2025-12-16,2025-12,Social,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+745914,165,2025-10-04,2025-10,Paid Ads,Discount,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+219176,166,2025-12-17,2025-12,Social,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+318126,167,2025-08-02,2025-08,Organic,Discount,Desktop,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+318969,168,2025-09-08,2025-09,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+222409,169,2025-07-06,2025-07,Paid Ads,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+647707,170,2025-11-07,2025-11,Email,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+353618,171,2025-12-01,2025-12,Email,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+869598,172,2025-08-17,2025-08,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+150015,173,2025-08-26,2025-08,Email,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+872838,174,2025-09-07,2025-09,Social,Discount,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,Yes,No,2564.25,2564.25,1,1,1,1,1,0
+222096,175,2025-12-21,2025-12,Paid Ads,New Launch,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+731347,176,2025-12-23,2025-12,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+285340,177,2025-08-10,2025-08,Email,New Launch,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,No,2152.36,2152.36,1,1,1,1,1,0
+210687,178,2025-10-15,2025-10,Organic,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+974371,179,2025-07-16,2025-07,Social,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+511357,180,2025-12-27,2025-12,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+835716,181,2025-07-12,2025-07,Email,New Launch,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+205878,182,2025-07-15,2025-07,Social,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+827270,183,2025-10-09,2025-10,Paid Ads,Influencer,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+298286,184,2025-07-21,2025-07,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+873290,185,2025-11-30,2025-11,Paid Ads,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+874684,186,2025-12-05,2025-12,Organic,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+264899,187,2025-08-02,2025-08,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+424767,188,2025-08-02,2025-08,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+961882,189,2025-12-03,2025-12,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+979858,190,2025-09-28,2025-09,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+479989,191,2025-08-10,2025-08,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+515515,192,2025-11-06,2025-11,Social,Discount,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+143585,193,2025-09-01,2025-09,Email,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+471369,194,2025-12-10,2025-12,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+164044,195,2025-12-23,2025-12,Organic,Influencer,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,No,2689.76,2689.76,1,1,1,1,1,0
+542296,196,2025-08-08,2025-08,Paid Ads,New Launch,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+209556,197,2025-11-25,2025-11,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+626981,198,2025-09-15,2025-09,Paid Ads,Influencer,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,499.0,449.1,1,1,1,1,1,1
+981691,199,2025-12-13,2025-12,Social,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+867595,200,2025-07-23,2025-07,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+300235,201,2025-11-17,2025-11,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,Yes,1152.02,1036.818,1,1,1,1,1,1
+125939,202,2025-07-06,2025-07,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+252906,203,2025-10-06,2025-10,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+642335,204,2025-07-07,2025-07,Organic,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+388249,205,2025-08-20,2025-08,Paid Ads,Influencer,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+175766,206,2025-07-14,2025-07,Paid Ads,Influencer,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+508923,207,2025-07-16,2025-07,Organic,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+515192,208,2025-11-28,2025-11,Email,Influencer,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+668550,209,2025-07-18,2025-07,Organic,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+487261,210,2025-11-12,2025-11,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+910208,211,2025-09-06,2025-09,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+785440,212,2025-07-25,2025-07,Email,New Launch,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+752664,213,2025-08-02,2025-08,Organic,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+554589,214,2025-08-20,2025-08,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+237848,215,2025-07-23,2025-07,Paid Ads,Influencer,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+717075,216,2025-08-19,2025-08,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+227948,217,2025-11-26,2025-11,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+679304,218,2025-09-01,2025-09,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+502690,219,2025-11-26,2025-11,Paid Ads,Influencer,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+599046,220,2025-10-30,2025-10,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+551269,221,2025-10-20,2025-10,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+121959,222,2025-07-27,2025-07,Email,Discount,Desktop,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+760890,223,2025-12-01,2025-12,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+850216,224,2025-07-19,2025-07,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+890180,225,2025-08-27,2025-08,Organic,Influencer,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+328576,226,2025-07-07,2025-07,Email,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+637833,227,2025-11-20,2025-11,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+265838,228,2025-09-04,2025-09,Organic,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+435674,229,2025-12-22,2025-12,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+979989,230,2025-08-15,2025-08,Organic,Discount,Mobile,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+161087,231,2025-09-27,2025-09,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+693128,232,2025-08-13,2025-08,Email,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+218451,233,2025-11-14,2025-11,Organic,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+547600,234,2025-09-09,2025-09,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+937437,235,2025-07-11,2025-07,Paid Ads,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+539792,236,2025-10-23,2025-10,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+139353,237,2025-08-25,2025-08,Paid Ads,New Launch,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+293075,238,2025-11-09,2025-11,Organic,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+314283,239,2025-11-02,2025-11,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+414877,240,2025-08-06,2025-08,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+165318,241,2025-09-28,2025-09,Organic,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+865313,242,2025-10-25,2025-10,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+582690,243,2025-08-03,2025-08,Social,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+516880,244,2025-09-18,2025-09,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+691460,245,2025-10-13,2025-10,Organic,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+840976,246,2025-08-16,2025-08,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,Yes,3140.51,2826.459,1,1,1,1,1,1
+881239,247,2025-07-30,2025-07,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+193264,248,2025-10-26,2025-10,Organic,New Launch,Desktop,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+870746,249,2025-08-15,2025-08,Paid Ads,Influencer,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+913168,250,2025-09-18,2025-09,Organic,New Launch,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+325281,251,2025-09-08,2025-09,Social,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+737147,252,2025-08-02,2025-08,Organic,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+998613,253,2025-08-19,2025-08,Email,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+494070,254,2025-07-15,2025-07,Email,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+452228,255,2025-07-20,2025-07,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+531839,256,2025-11-04,2025-11,Organic,Discount,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+369536,257,2025-09-26,2025-09,Paid Ads,New Launch,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+417824,258,2025-08-09,2025-08,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+357426,259,2025-08-01,2025-08,Paid Ads,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+277789,260,2025-10-05,2025-10,Organic,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+613153,261,2025-10-20,2025-10,Email,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+842452,262,2025-07-12,2025-07,Social,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+937291,263,2025-07-15,2025-07,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+225657,264,2025-09-10,2025-09,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+335167,265,2025-07-04,2025-07,Organic,New Launch,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+781669,266,2025-07-27,2025-07,Social,Influencer,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+580671,267,2025-10-09,2025-10,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+819094,268,2025-08-08,2025-08,Paid Ads,Discount,Desktop,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+170467,269,2025-11-20,2025-11,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+283734,270,2025-07-19,2025-07,Organic,New Launch,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+722794,271,2025-10-25,2025-10,Organic,Discount,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+209751,272,2025-07-14,2025-07,Organic,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+481050,273,2025-09-09,2025-09,Paid Ads,Influencer,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+911774,274,2025-11-11,2025-11,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,No,1277.74,1277.74,1,1,1,1,1,0
+792517,275,2025-12-09,2025-12,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+561079,276,2025-11-02,2025-11,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+468452,277,2025-07-25,2025-07,Organic,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+206081,278,2025-12-16,2025-12,Organic,Influencer,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+713333,279,2025-09-27,2025-09,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+658986,280,2025-08-19,2025-08,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+210078,281,2025-10-19,2025-10,Organic,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+967055,282,2025-09-17,2025-09,Paid Ads,New Launch,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,1822.54,1640.286,1,1,1,1,1,1
+122671,283,2025-12-17,2025-12,Organic,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+518400,284,2025-09-05,2025-09,Social,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+455528,285,2025-10-08,2025-10,Social,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+710490,286,2025-07-22,2025-07,Paid Ads,New Launch,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+151663,287,2025-12-03,2025-12,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+115708,288,2025-10-04,2025-10,Email,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+978338,289,2025-10-11,2025-10,Email,New Launch,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+411955,290,2025-07-01,2025-07,Paid Ads,New Launch,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+233883,291,2025-12-19,2025-12,Social,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+418394,292,2025-11-28,2025-11,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+212547,293,2025-07-05,2025-07,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+659042,294,2025-10-20,2025-10,Organic,Influencer,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+851102,295,2025-10-07,2025-10,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+862002,296,2025-09-13,2025-09,Email,New Launch,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+242483,297,2025-11-20,2025-11,Social,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+758271,298,2025-11-09,2025-11,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+314835,299,2025-12-19,2025-12,Organic,Influencer,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+501896,300,2025-09-12,2025-09,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+184896,301,2025-08-02,2025-08,Social,Discount,Desktop,New,Metro,Yes,Yes,Yes,Yes,Yes,Yes,1751.88,1576.692,1,1,1,1,1,1
+577095,302,2025-10-14,2025-10,Paid Ads,Influencer,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+171295,303,2025-08-15,2025-08,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+843974,304,2025-07-27,2025-07,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+987121,305,2025-10-15,2025-10,Paid Ads,New Launch,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+373255,306,2025-07-28,2025-07,Organic,Discount,Desktop,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+399648,307,2025-12-21,2025-12,Paid Ads,New Launch,Desktop,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+757162,308,2025-10-15,2025-10,Organic,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+108155,309,2025-08-03,2025-08,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+566872,310,2025-12-04,2025-12,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+925816,311,2025-10-04,2025-10,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+474705,312,2025-11-04,2025-11,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+671542,313,2025-08-26,2025-08,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+908350,314,2025-11-01,2025-11,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+710269,315,2025-11-27,2025-11,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+654594,316,2025-11-20,2025-11,Organic,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+247718,317,2025-07-27,2025-07,Paid Ads,Discount,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+408987,318,2025-10-31,2025-10,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+745263,319,2025-09-27,2025-09,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+458745,320,2025-08-29,2025-08,Email,New Launch,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,No,1588.04,1588.04,1,1,1,1,1,0
+207512,321,2025-09-13,2025-09,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+247443,322,2025-09-10,2025-09,Email,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2234.95,2011.455,1,1,1,1,1,1
+570587,323,2025-11-26,2025-11,Organic,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+473616,324,2025-08-06,2025-08,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+757409,325,2025-11-29,2025-11,Social,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+786976,326,2025-10-18,2025-10,Paid Ads,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+465871,327,2025-11-03,2025-11,Email,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+475037,328,2025-08-17,2025-08,Organic,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+907364,329,2025-11-28,2025-11,Email,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+217796,330,2025-07-13,2025-07,Social,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+391999,331,2025-10-26,2025-10,Paid Ads,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+292506,332,2025-08-28,2025-08,Social,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+798376,333,2025-11-10,2025-11,Organic,New Launch,Desktop,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+369544,334,2025-07-15,2025-07,Paid Ads,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+480002,335,2025-07-24,2025-07,Social,Discount,Desktop,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+798002,336,2025-09-13,2025-09,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+639439,337,2025-07-08,2025-07,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+690978,338,2025-10-14,2025-10,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+628787,339,2025-10-27,2025-10,Paid Ads,Influencer,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+630583,340,2025-10-10,2025-10,Paid Ads,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+488215,341,2025-12-17,2025-12,Organic,New Launch,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+421184,342,2025-10-23,2025-10,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+898615,343,2025-11-12,2025-11,Social,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+522515,344,2025-10-24,2025-10,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+768234,345,2025-11-29,2025-11,Organic,Discount,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+478480,346,2025-07-27,2025-07,Social,New Launch,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+132711,347,2025-11-04,2025-11,Email,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+891971,348,2025-10-17,2025-10,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+601157,349,2025-07-03,2025-07,Email,New Launch,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+284423,350,2025-08-17,2025-08,Organic,Discount,Desktop,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+616349,351,2025-11-27,2025-11,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+803714,352,2025-12-15,2025-12,Organic,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+757917,353,2025-08-17,2025-08,Social,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+924792,354,2025-12-24,2025-12,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+837378,355,2025-07-29,2025-07,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+233272,356,2025-07-17,2025-07,Paid Ads,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+867836,357,2025-07-07,2025-07,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+802335,358,2025-12-18,2025-12,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+907789,359,2025-08-04,2025-08,Paid Ads,Influencer,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+743409,360,2025-12-15,2025-12,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+177505,361,2025-11-11,2025-11,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+102869,362,2025-07-02,2025-07,Social,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+881474,363,2025-08-08,2025-08,Organic,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+554351,364,2025-11-01,2025-11,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,Yes,Yes,Yes,Yes,Yes,1983.52,1785.168,1,1,1,1,1,1
+412252,365,2025-10-10,2025-10,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+736584,366,2025-08-02,2025-08,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+718467,367,2025-10-14,2025-10,Social,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,Yes,1556.03,1400.427,1,1,1,1,1,1
+190272,368,2025-11-28,2025-11,Organic,Influencer,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,3044.65,2740.185,1,1,1,1,1,1
+138467,369,2025-10-24,2025-10,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+909760,370,2025-08-02,2025-08,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+977844,371,2025-09-27,2025-09,Organic,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+580047,372,2025-09-16,2025-09,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+759347,373,2025-07-30,2025-07,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+158871,374,2025-07-09,2025-07,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+228391,375,2025-10-02,2025-10,Email,Influencer,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+539430,376,2025-11-03,2025-11,Paid Ads,Influencer,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+710704,377,2025-09-09,2025-09,Paid Ads,Influencer,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+956703,378,2025-08-31,2025-08,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+930496,379,2025-09-09,2025-09,Organic,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+356687,380,2025-11-30,2025-11,Social,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+825451,381,2025-12-22,2025-12,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+207450,382,2025-08-20,2025-08,Email,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+271890,383,2025-07-28,2025-07,Organic,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+538741,384,2025-10-06,2025-10,Organic,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+381974,385,2025-10-24,2025-10,Paid Ads,Influencer,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+500109,386,2025-11-02,2025-11,Organic,Influencer,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+216381,387,2025-12-11,2025-12,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+573125,388,2025-10-10,2025-10,Email,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+671621,389,2025-09-05,2025-09,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+234508,390,2025-12-08,2025-12,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+829650,391,2025-12-01,2025-12,Email,Discount,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+962645,392,2025-07-06,2025-07,Social,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+499111,393,2025-09-05,2025-09,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+250810,394,2025-07-14,2025-07,Paid Ads,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+392890,395,2025-10-21,2025-10,Paid Ads,Influencer,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+673665,396,2025-12-24,2025-12,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+940477,397,2025-08-19,2025-08,Email,Influencer,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+460032,398,2025-09-13,2025-09,Paid Ads,Discount,Desktop,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2576.13,2318.517,1,1,1,1,1,1
+469599,399,2025-11-22,2025-11,Paid Ads,New Launch,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+760960,400,2025-12-21,2025-12,Email,Influencer,Mobile,Returning,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+850020,401,2025-12-23,2025-12,Paid Ads,Influencer,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+979611,402,2025-08-31,2025-08,Organic,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+271836,403,2025-11-21,2025-11,Paid Ads,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+829903,404,2025-11-01,2025-11,Organic,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+145714,405,2025-08-17,2025-08,Paid Ads,Discount,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+727234,406,2025-08-23,2025-08,Organic,Influencer,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+996048,407,2025-11-11,2025-11,Organic,Discount,Desktop,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+730271,408,2025-12-08,2025-12,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+566960,409,2025-09-10,2025-09,Organic,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+811851,410,2025-10-25,2025-10,Organic,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+224123,411,2025-12-17,2025-12,Organic,Discount,Desktop,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+405628,412,2025-10-31,2025-10,Paid Ads,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+182989,413,2025-07-30,2025-07,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+398356,414,2025-07-07,2025-07,Email,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+929957,415,2025-12-15,2025-12,Social,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+278274,416,2025-08-30,2025-08,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+787995,417,2025-11-19,2025-11,Social,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+425352,418,2025-09-02,2025-09,Social,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+920260,419,2025-08-24,2025-08,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+511927,420,2025-09-05,2025-09,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+889852,421,2025-09-28,2025-09,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+983184,422,2025-12-19,2025-12,Organic,Influencer,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+231373,423,2025-08-27,2025-08,Social,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+538452,424,2025-12-09,2025-12,Email,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+215294,425,2025-10-02,2025-10,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+559451,426,2025-12-04,2025-12,Social,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+748307,427,2025-12-12,2025-12,Paid Ads,Discount,Desktop,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+165726,428,2025-09-27,2025-09,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+241564,429,2025-09-06,2025-09,Social,New Launch,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+477812,430,2025-08-31,2025-08,Paid Ads,New Launch,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+368246,431,2025-07-01,2025-07,Paid Ads,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+805696,432,2025-10-25,2025-10,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+218015,433,2025-12-27,2025-12,Social,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+840674,434,2025-08-26,2025-08,Email,Discount,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+354079,435,2025-08-26,2025-08,Paid Ads,New Launch,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+650929,436,2025-09-04,2025-09,Email,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+789944,437,2025-09-19,2025-09,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,Yes,Yes,Yes,No,1979.76,1979.76,1,1,1,1,1,0
+788105,438,2025-08-30,2025-08,Email,Discount,Desktop,New,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2393.95,2154.555,1,1,1,1,1,1
+613758,439,2025-08-21,2025-08,Organic,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+465890,440,2025-10-15,2025-10,Paid Ads,Discount,Desktop,Returning,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+545101,441,2025-08-18,2025-08,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+136631,442,2025-07-23,2025-07,Paid Ads,New Launch,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+866577,443,2025-09-07,2025-09,Organic,New Launch,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+172991,444,2025-10-04,2025-10,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+104014,445,2025-11-26,2025-11,Organic,New Launch,Desktop,Returning,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+373237,446,2025-07-09,2025-07,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+118070,447,2025-09-20,2025-09,Organic,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+922209,448,2025-09-17,2025-09,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+156958,449,2025-12-23,2025-12,Email,Discount,Desktop,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+182074,450,2025-09-18,2025-09,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+635017,451,2025-08-06,2025-08,Paid Ads,Discount,Mobile,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+855073,452,2025-10-23,2025-10,Paid Ads,New Launch,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+276089,453,2025-07-05,2025-07,Organic,Discount,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+297392,454,2025-12-08,2025-12,Paid Ads,New Launch,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+258823,455,2025-10-21,2025-10,Paid Ads,Influencer,Desktop,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+730152,456,2025-07-07,2025-07,Organic,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+493002,457,2025-08-11,2025-08,Paid Ads,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+833429,458,2025-08-29,2025-08,Organic,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+598863,459,2025-11-09,2025-11,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+467654,460,2025-07-04,2025-07,Organic,Discount,Desktop,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+679036,461,2025-09-15,2025-09,Organic,Influencer,Desktop,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+630089,462,2025-10-07,2025-10,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+250262,463,2025-10-15,2025-10,Organic,Discount,Desktop,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+542905,464,2025-11-23,2025-11,Organic,New Launch,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,Yes,1875.38,1687.842,1,1,1,1,1,1
+335362,465,2025-10-24,2025-10,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+544209,466,2025-11-02,2025-11,Social,Discount,Mobile,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+653880,467,2025-12-25,2025-12,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+897079,468,2025-10-18,2025-10,Organic,Discount,Mobile,New,Metro,Yes,Yes,Yes,Yes,Yes,Yes,2010.96,1809.864,1,1,1,1,1,1
+764076,469,2025-07-13,2025-07,Email,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+319963,470,2025-07-31,2025-07,Organic,Discount,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+580761,471,2025-08-11,2025-08,Paid Ads,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+348710,472,2025-09-08,2025-09,Social,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+320984,473,2025-10-22,2025-10,Paid Ads,New Launch,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+997059,474,2025-11-16,2025-11,Organic,Discount,Desktop,New,Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+956748,475,2025-11-26,2025-11,Social,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+882355,476,2025-12-01,2025-12,Social,Influencer,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+364512,477,2025-07-15,2025-07,Paid Ads,Influencer,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+701863,478,2025-11-29,2025-11,Organic,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+368799,479,2025-09-20,2025-09,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+337549,480,2025-10-13,2025-10,Organic,Influencer,Desktop,Returning,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+694319,481,2025-12-10,2025-12,Paid Ads,Influencer,Mobile,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+584299,482,2025-07-28,2025-07,Organic,New Launch,Desktop,New,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+712210,483,2025-12-04,2025-12,Organic,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+548982,484,2025-08-21,2025-08,Social,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+224046,485,2025-10-18,2025-10,Email,New Launch,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+506619,486,2025-08-25,2025-08,Paid Ads,Discount,Mobile,Returning,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+132097,487,2025-07-02,2025-07,Organic,Discount,Desktop,Returning,Non-Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+766326,488,2025-09-20,2025-09,Organic,New Launch,Mobile,Returning,Metro,Yes,Yes,Yes,Yes,Yes,Yes,985.65,887.085,1,1,1,1,1,1
+749150,489,2025-09-01,2025-09,Email,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+330229,490,2025-08-29,2025-08,Social,Discount,Desktop,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+218834,491,2025-10-17,2025-10,Paid Ads,Discount,Mobile,Returning,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+193848,492,2025-10-17,2025-10,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+152921,493,2025-11-19,2025-11,Organic,Discount,Mobile,New,Metro,Yes,Yes,Yes,No,No,No,499.0,0.0,1,1,1,0,0,0
+805086,494,2025-07-28,2025-07,Paid Ads,New Launch,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+750429,495,2025-08-13,2025-08,Paid Ads,Discount,Mobile,New,Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
+805660,496,2025-10-29,2025-10,Organic,Influencer,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+384821,497,2025-11-26,2025-11,Email,Discount,Mobile,New,Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+155609,498,2025-08-03,2025-08,Paid Ads,Discount,Mobile,New,Non-Metro,Yes,Yes,No,No,No,No,499.0,0.0,1,1,0,0,0,0
+327897,499,2025-10-18,2025-10,Social,New Launch,Mobile,New,Non-Metro,Yes,Yes,Yes,Yes,No,No,499.0,0.0,1,1,1,1,0,0
+131024,500,2025-12-14,2025-12,Organic,Discount,Mobile,Returning,Non-Metro,Yes,No,No,No,No,No,499.0,0.0,1,0,0,0,0,0
