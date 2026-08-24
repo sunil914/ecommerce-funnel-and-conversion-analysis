@@ -2,7 +2,14 @@
 
 ## File
 
-`ecommerce_funnel_clean.csv.gz` contains 120,000 synthetic shopping sessions and 23 columns. `ecommerce_funnel_sample.csv` provides the first 500 rows for browser preview. Decompress the full file with `gzip -dk ecommerce_funnel_clean.csv.gz`.
+The complete `ecommerce_funnel_clean.csv.gz` dataset contains 120,000 synthetic shopping sessions and 23 columns. It is stored as three numbered parts, while `ecommerce_funnel_sample.csv` provides the first 500 rows for browser preview.
+
+Reconstruct and decompress the full CSV:
+
+```bash
+cat ecommerce_funnel_clean.csv.gz.part-* > ecommerce_funnel_clean.csv.gz
+gzip -dk ecommerce_funnel_clean.csv.gz
+```
 
 ## Source
 
