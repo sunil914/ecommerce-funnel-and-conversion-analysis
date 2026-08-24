@@ -1,6 +1,6 @@
 # E-commerce Funnel & Conversion Analysis
 
-> **Status:** Core analysis documented · Tableau dashboard in progress
+> **Status:** Validated data and executable SQLite analysis complete · Tableau dashboard in progress
 
 ## Overview
 
@@ -29,6 +29,13 @@ This project analyses 120,000 synthetic direct-to-consumer shopping sessions fro
 - Analysed funnel drop-off, acquisition channel, campaign, device, region, user type and monthly performance.
 - Identified the largest absolute loss before Add to Cart.
 
+## Repository contents
+
+- [`data/`](data/) — cleaned full dataset, preview sample, source and validation notes
+- [`sql/`](sql/) — executable SQLite schema, funnel analysis views and run guide
+- [`scripts/build_database.py`](scripts/build_database.py) — standard-library loader that rebuilds and validates `project.db`
+- [`tableau/`](tableau/) — build guide; workbook and screenshots are still pending
+
 ## Tableau dashboard — in progress
 
 Planned views:
@@ -54,8 +61,9 @@ Planned views:
 - [x] SQL analysis documented
 - [x] Findings and recommendations documented
 - [x] Add cleaned data with source and validation notes
+- [x] Add reproducible SQLite database loader
 - [ ] Add reproducible preparation code
-- [ ] Add complete SQL script and analysis outputs
+- [x] Add complete SQL schema and analysis views
 - [ ] Build and publish Tableau dashboard
 - [ ] Add dashboard screenshots and Tableau Public link
 
