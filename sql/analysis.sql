@@ -18,11 +18,37 @@ SELECT
 FROM ecommerce_sessions;
 
 CREATE VIEW v_funnel_stages AS
-SELECT 1 AS stage_order, 'Visited website' AS stage, SUM(visited_website_flag) AS sessions FROM ecommerce_sessions
-UNION ALL SELECT 2, 'Viewed product', SUM(viewed_product_flag) FROM ecommerce_sessions
-UNION ALL SELECT 3, 'Added to cart', SUM(added_to_cart_flag) FROM ecommerce_sessions
-UNION ALL SELECT 4, 'Checkout started', SUM(checkout_started_flag) FROM ecommerce_sessions
-UNION ALL SELECT 5, 'Purchase completed', SUM(purchase_completed_flag) FROM ecommerce_sessions;
+WITH stages AS (
+    SELECT 1 AS stage_order, 'Visited website' AS stage, SUM(visited_website_flag) AS sessions FROM ecommerce_sessions
+    UNION ALL SELECT 2, 'Viewed product', SUM(viewed_product_flag) FROM ecommerce_sessions
+    UNION ALL SELECT 3, 'Added to cart', SUM(added_to_cart_flag) FROM ecommerce_sessions
+    UNION ALL SELECT 4, 'Checkout started', SUM(checkout_started_flag) FROM ecommerce_sessions
+    UNION ALL SELECT 5, 'Purchase completed', SUM(purchase_completed_flag) FROM ecommerce_sessions
+),
+progression AS (
+    SELECT
+        stage_order,
+        stage,
+        sessions,
+        LAG(sessions) OVER (ORDER BY stage_order) AS previous_stage_sessions,
+        FIRST_VALUE(sessions) OVER (ORDER BY stage_order) AS total_sessions
+    FROM stages
+)
+SELECT
+    stage_order,
+    stage,
+    sessions,
+    previous_stage_sessions,
+    CASE
+        WHEN previous_stage_sessions IS NULL THEN NULL
+        ELSE previous_stage_sessions - sessions
+    END AS drop_off_sessions,
+    CASE
+        WHEN previous_stage_sessions IS NULL THEN 100.0
+        ELSE ROUND(100.0 * sessions / previous_stage_sessions, 2)
+    END AS stage_conversion_rate_pct,
+    ROUND(100.0 * sessions / total_sessions, 2) AS overall_conversion_rate_pct
+FROM progression;
 
 CREATE VIEW v_channel_performance AS
 SELECT channel, COUNT(*) AS sessions, SUM(purchase_completed_flag) AS purchases,
