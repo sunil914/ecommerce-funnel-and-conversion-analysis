@@ -29,6 +29,20 @@ This project analyses 120,000 synthetic direct-to-consumer shopping sessions fro
 - Analysed funnel drop-off, acquisition channel, campaign, device, region, user type and monthly performance.
 - Identified the largest absolute loss before Add to Cart.
 
+## Validated funnel diagnostics
+
+The executable `v_funnel_stages` view reports the previous-stage population, absolute drop-off, stage-to-stage conversion and overall conversion for every step:
+
+| Stage | Sessions | Drop-off from previous stage | Stage conversion | Overall conversion |
+|---|---:|---:|---:|---:|
+| Visited website | 120,000 | — | 100.00% | 100.00% |
+| Viewed product | 77,870 | 42,130 | 64.89% | 64.89% |
+| Added to cart | 27,156 | 50,714 | 34.87% | 22.63% |
+| Checkout started | 16,234 | 10,922 | 59.78% | 13.53% |
+| Purchase completed | 8,181 | 8,053 | 50.39% | 6.82% |
+
+The largest absolute loss is the **50,714-session drop from product view to cart**. This identifies the first optimisation area to investigate, but the synthetic data does not establish why users left or prove that a product-page change would cause improvement.
+
 ## Repository contents
 
 - [`data/`](data/) — cleaned full dataset, preview sample, source and validation notes
