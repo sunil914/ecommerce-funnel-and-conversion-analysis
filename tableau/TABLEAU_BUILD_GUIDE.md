@@ -14,25 +14,27 @@ Build an executive-friendly funnel dashboard that answers four questions:
 
 ## 2. Required Tableau input
 
-Use the cleaned session-level export when it is added to this repository. The Tableau source should contain one row per session and include:
+The cleaned session-level input is already committed in `data/ecommerce_funnel_clean.csv.gz.part-*`. From the repository root, reconstruct and decompress it before connecting the resulting CSV to Tableau:
 
-| Field | Expected role |
+```bash
+cd data
+cat ecommerce_funnel_clean.csv.gz.part-* > ecommerce_funnel_clean.csv.gz
+gzip -dk ecommerce_funnel_clean.csv.gz
+```
+
+Check the uncompressed CSV against the SHA-256 in [`data/README.md`](../data/README.md) before using it. Keep the original 120,000 session rows as the Tableau source; do not join the separately aggregated SQL views to session rows, since that would multiply counts. Alternatively, `python3 scripts/build_database.py` rebuilds `project.db` and its views for independent reconciliation.
+
+| CSV field | Tableau role |
 |---|---|
-| Session ID | Unique session identifier |
-| Date / Year Month | Time-series analysis |
-| Channel | Acquisition comparison |
-| Campaign Type | Campaign comparison |
-| Device | Experience comparison |
-| User Type | New/returning-user comparison |
-| Region | Geographic comparison |
-| Viewed Product Flag | Funnel stage indicator |
-| Added To Cart Flag | Funnel stage indicator |
-| Checkout Started Flag | Funnel stage indicator |
-| Purchase Completed Flag | Funnel stage indicator |
-| Revenue | Revenue from completed purchases |
-| Discount Applied | Optional segmentation filter |
+| `session_id` | Unique session identifier (text) |
+| `date` / `month` | Date / chronological year-month |
+| `channel`, `campaign_type` | Acquisition comparisons |
+| `device`, `user_type`, `region` | Experience comparisons |
+| `visited_website_flag`, `viewed_product_flag`, `added_to_cart_flag`, `checkout_started_flag`, `purchase_completed_flag` | Numeric 0/1 funnel indicators |
+| `revenue` | Revenue from completed purchases |
+| `discount_applied_flag` | Numeric 0/1 segmentation filter |
 
-Before building charts, confirm that each stage flag is numeric (0/1), dates are recognised as dates, and Revenue is numeric.
+In Tableau, confirm `session_id` stays text, `date` parses as a date, `month` sorts chronologically, the flags are numeric and `revenue` is decimal. If Tableau displays underscores or changes case in field labels, update the calculated-field references below to the names it actually shows.
 
 ## 3. Reconciliation checks
 
@@ -129,15 +131,15 @@ Each card should respond to the dashboard filters.
 
 ### B. Five-stage funnel
 
-Use a stage/value structure containing:
+Use a stage/value structure containing, in fixed order:
 
-1. Sessions
-2. Product Views
-3. Added to Cart
-4. Checkout Started
-5. Purchases
+1. Sessions: `SUM([Visited Website Flag])`
+2. Product Views: `SUM([Viewed Product Flag])`
+3. Added to Cart: `SUM([Added To Cart Flag])`
+4. Checkout Started: `SUM([Checkout Started Flag])`
+5. Purchases: `SUM([Purchase Completed Flag])`
 
-Show both the stage count and percentage of total sessions. Keep the stage order fixed.
+Build these values from the same filtered session-level source (for example, with Measure Names/Measure Values), rather than hard-coding the unfiltered totals into a separate table. For each stage, divide its count by the filtered Sessions value to show overall conversion. With no filters, the stage totals must match `v_funnel_stages` in `project.db`.
 
 ### C. Funnel drop-off table
 
@@ -233,7 +235,7 @@ Avoid causal language. Prefer “observed purchase rate” over “caused conver
 
 ## 9. Publishing checklist
 
-- [ ] Clean session-level Tableau input added
+- [x] Clean session-level input committed as multipart gzip (reconstruct and checksum before connecting)
 - [ ] KPI totals reconcile to documented results
 - [ ] Funnel order and stage logic validated
 - [ ] All filters tested
