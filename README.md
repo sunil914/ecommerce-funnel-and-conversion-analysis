@@ -48,7 +48,30 @@ The largest absolute loss is the **50,714-session drop from product view to cart
 - [`data/`](data/) — cleaned full dataset, preview sample, source and validation notes
 - [`sql/`](sql/) — executable SQLite schema, funnel analysis views and run guide
 - [`scripts/build_database.py`](scripts/build_database.py) — standard-library loader that rebuilds and validates `project.db`
+- [`scripts/prepare_tableau_data.py`](scripts/prepare_tableau_data.py) — dependency-free reconstruction, checksum verification and Tableau-source validation
 - [`tableau/`](tableau/) — build guide; workbook and screenshots are still pending
+
+## Reproduce the Tableau source
+
+The cleaned session-level dataset is stored as numbered gzip parts. Reconstruct it, verify both published SHA-256 values and validate the funnel before writing the Tableau CSV:
+
+```bash
+python3 scripts/prepare_tableau_data.py
+```
+
+The command validates the 23-column schema, 120,000 unique sessions, binary stage flags, monotonic funnel progression, all stage totals, $17,016,599.15 revenue and $2,080.01 average order value. Any failed check stops before replacing `data/ecommerce_funnel_clean.csv`.
+
+Validate without writing a file:
+
+```bash
+python3 scripts/prepare_tableau_data.py --check-only
+```
+
+Choose another output path when needed:
+
+```bash
+python3 scripts/prepare_tableau_data.py --output "path/to/ecommerce_funnel_clean.csv"
+```
 
 ## Tableau dashboard — in progress
 
@@ -76,7 +99,7 @@ Planned views:
 - [x] Findings and recommendations documented
 - [x] Add cleaned data with source and validation notes
 - [x] Add reproducible SQLite database loader
-- [ ] Add reproducible preparation code
+- [x] Add reproducible preparation code
 - [x] Add complete SQL schema and analysis views
 - [ ] Build and publish Tableau dashboard
 - [ ] Add dashboard screenshots and Tableau Public link
