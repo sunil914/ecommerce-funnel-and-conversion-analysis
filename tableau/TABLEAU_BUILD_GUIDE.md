@@ -14,15 +14,27 @@ Build an executive-friendly funnel dashboard that answers four questions:
 
 ## 2. Required Tableau input
 
-The cleaned session-level input is already committed in `data/ecommerce_funnel_clean.csv.gz.part-*`. From the repository root, reconstruct and decompress it before connecting the resulting CSV to Tableau:
+Use the committed cross-platform preparation workflow instead of manually concatenating or decompressing the multipart dataset:
 
 ```bash
-cd data
-cat ecommerce_funnel_clean.csv.gz.part-* > ecommerce_funnel_clean.csv.gz
-gzip -dk ecommerce_funnel_clean.csv.gz
+python3 scripts/prepare_tableau_data.py
 ```
 
-Check the uncompressed CSV against the SHA-256 in [`data/README.md`](../data/README.md) before using it. Keep the original 120,000 session rows as the Tableau source; do not join the separately aggregated SQL views to session rows, since that would multiply counts. Alternatively, `python3 scripts/build_database.py` rebuilds `project.db` and its views for independent reconciliation.
+The command reconstructs `data/ecommerce_funnel_clean.csv.gz.part-*`, verifies the compressed SHA-256 `3d6464f5c966fc1cc3971cfa81223681fa7ce53dbc65d4172f346e911d2c57bb` and uncompressed SHA-256 `af9b9f975924f0b7a09588c9d21b6f316a8440d88ec1e2883a0d2f3bf0d87eb9`, then validates the 23-column schema, 120,000 unique sessions, binary stage flags, monotonic funnel progression, stage totals, revenue and average order value. It atomically writes `data/ecommerce_funnel_clean.csv` only after every check passes.
+
+Validate without writing:
+
+```bash
+python3 scripts/prepare_tableau_data.py --check-only
+```
+
+Choose another destination when required:
+
+```bash
+python3 scripts/prepare_tableau_data.py --output "path/to/ecommerce_funnel_clean.csv"
+```
+
+Connect Tableau to the validated CSV output as the only data source. Keep the original 120,000 session rows intact; do not join the separately aggregated SQL views to session rows, because that would multiply counts. Use `project.db` and its views only for independent reconciliation.
 
 | CSV field | Tableau role |
 |---|---|
@@ -235,7 +247,7 @@ Avoid causal language. Prefer “observed purchase rate” over “caused conver
 
 ## 9. Publishing checklist
 
-- [x] Clean session-level input committed as multipart gzip (reconstruct and checksum before connecting)
+- [x] Cross-platform preparation script reconstructs, checksum-verifies and validates the session-level input
 - [ ] KPI totals reconcile to documented results
 - [ ] Funnel order and stage logic validated
 - [ ] All filters tested
