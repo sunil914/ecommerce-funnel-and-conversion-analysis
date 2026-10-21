@@ -57,6 +57,7 @@ FLAG_FIELDS = [
 ]
 EXPECTED_TOTALS = {
     "sessions": 120_000,
+    "visited_website_flag": 120_000,
     "viewed_product_flag": 77_870,
     "added_to_cart_flag": 27_156,
     "checkout_started_flag": 16_234,
@@ -160,6 +161,7 @@ def validate(payload: bytes) -> dict[str, Decimal | int]:
             f"and {len(sessions):,} unique IDs."
         )
     for field in (
+        "visited_website_flag",
         "viewed_product_flag",
         "added_to_cart_flag",
         "checkout_started_flag",
@@ -187,6 +189,7 @@ def validate(payload: bytes) -> dict[str, Decimal | int]:
 
     return {
         "sessions": rows,
+        "website_visits": stage_totals["visited_website_flag"],
         "product_views": stage_totals["viewed_product_flag"],
         "carts": stage_totals["added_to_cart_flag"],
         "checkouts": stage_totals["checkout_started_flag"],
