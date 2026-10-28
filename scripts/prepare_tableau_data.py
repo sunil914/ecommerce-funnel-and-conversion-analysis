@@ -55,6 +55,14 @@ FLAG_FIELDS = [
     "purchase_completed_flag",
     "discount_applied_flag",
 ]
+INDICATOR_FIELDS = {
+    "visited_website": "visited_website_flag",
+    "viewed_product": "viewed_product_flag",
+    "added_to_cart": "added_to_cart_flag",
+    "checkout_started": "checkout_started_flag",
+    "purchase_completed": "purchase_completed_flag",
+    "discount_applied": "discount_applied_flag",
+}
 EXPECTED_TOTALS = {
     "sessions": 120_000,
     "visited_website_flag": 120_000,
@@ -135,6 +143,19 @@ def validate(payload: bytes) -> dict[str, Decimal | int]:
                 )
             flags[field] = value
             stage_totals[field] += value
+
+        for indicator_field, flag_field in INDICATOR_FIELDS.items():
+            indicator = row[indicator_field].strip()
+            if indicator not in {"Yes", "No"}:
+                raise ValueError(
+                    f"{indicator_field} must be Yes or No on line {line_number}."
+                )
+            expected_flag = 1 if indicator == "Yes" else 0
+            if flags[flag_field] != expected_flag:
+                raise ValueError(
+                    f"{indicator_field} and {flag_field} disagree on "
+                    f"line {line_number}."
+                )
 
         progression = (
             flags["visited_website_flag"],
