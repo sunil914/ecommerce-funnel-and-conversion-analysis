@@ -170,11 +170,28 @@ def validate(payload: bytes) -> dict[str, Decimal | int]:
             )
 
         try:
-            revenue += Decimal(row["revenue"])
+            order_value = Decimal(row["order_value"])
+            row_revenue = Decimal(row["revenue"])
         except Exception as error:
             raise ValueError(
-                f"Invalid revenue on line {line_number}: {row['revenue']!r}"
+                f"Invalid order value or revenue on line {line_number}."
             ) from error
+        if order_value < 0 or row_revenue < 0:
+            raise ValueError(
+                f"Order value and revenue must be non-negative on line {line_number}."
+            )
+
+        expected_revenue = Decimal("0")
+        if flags["purchase_completed_flag"]:
+            expected_revenue = order_value
+            if flags["discount_applied_flag"]:
+                expected_revenue *= Decimal("0.9")
+        if row_revenue != expected_revenue:
+            raise ValueError(
+                f"Revenue mismatch on line {line_number}: expected "
+                f"{expected_revenue}, got {row_revenue}."
+            )
+        revenue += row_revenue
 
     if rows != EXPECTED_TOTALS["sessions"] or len(sessions) != rows:
         raise ValueError(
