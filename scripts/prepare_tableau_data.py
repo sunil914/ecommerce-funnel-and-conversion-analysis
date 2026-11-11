@@ -10,6 +10,7 @@ import hashlib
 import io
 import os
 import tempfile
+from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
@@ -63,6 +64,14 @@ INDICATOR_FIELDS = {
     "purchase_completed": "purchase_completed_flag",
     "discount_applied": "discount_applied_flag",
 }
+DIMENSION_FIELDS = (
+    "user_id",
+    "channel",
+    "campaign_type",
+    "device",
+    "user_type",
+    "region",
+)
 EXPECTED_TOTALS = {
     "sessions": 120_000,
     "visited_website_flag": 120_000,
@@ -128,6 +137,25 @@ def validate(payload: bytes) -> dict[str, Decimal | int]:
         if session_id in sessions:
             raise ValueError(f"Duplicate session_id {session_id!r}.")
         sessions.add(session_id)
+
+        for field in DIMENSION_FIELDS:
+            if not row[field].strip():
+                raise ValueError(
+                    f"{field} must not be blank on line {line_number}."
+                )
+
+        try:
+            session_date = date.fromisoformat(row["date"])
+        except ValueError as error:
+            raise ValueError(
+                f"date must use YYYY-MM-DD on line {line_number}."
+            ) from error
+        expected_month = session_date.strftime("%Y-%m")
+        if row["month"] != expected_month:
+            raise ValueError(
+                f"month must be {expected_month} for {row['date']} "
+                f"on line {line_number}, got {row['month']!r}."
+            )
 
         flags: dict[str, int] = {}
         for field in FLAG_FIELDS:
