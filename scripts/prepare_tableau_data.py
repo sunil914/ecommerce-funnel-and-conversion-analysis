@@ -72,6 +72,13 @@ DIMENSION_FIELDS = (
     "user_type",
     "region",
 )
+EXPECTED_DIMENSION_DOMAINS = {
+    "channel": {"Email", "Organic", "Paid Ads", "Social"},
+    "campaign_type": {"Discount", "Influencer", "New Launch"},
+    "device": {"Desktop", "Mobile"},
+    "user_type": {"New", "Returning"},
+    "region": {"Metro", "Non-Metro"},
+}
 EXPECTED_TOTALS = {
     "sessions": 120_000,
     "visited_website_flag": 120_000,
@@ -142,6 +149,14 @@ def validate(payload: bytes) -> dict[str, Decimal | int]:
             if not row[field].strip():
                 raise ValueError(
                     f"{field} must not be blank on line {line_number}."
+                )
+
+        for field, expected_values in EXPECTED_DIMENSION_DOMAINS.items():
+            if row[field] not in expected_values:
+                allowed = ", ".join(sorted(expected_values))
+                raise ValueError(
+                    f"Unexpected {field} value on line {line_number}: "
+                    f"{row[field]!r}. Expected one of: {allowed}."
                 )
 
         try:
